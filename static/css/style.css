@@ -172,7 +172,6 @@ body{
     var(--color-primario-apagado)10%,
     var(--fondo-primario)55%
   );
-  height: max-content;
 }
 .articulo__titulo{
   font-size: var(--titulo-tamanio);
