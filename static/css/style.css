@@ -1,3 +1,43 @@
+:root{
+  --texto-primario:#dddddd;
+  --texto-secundario:#d1d1d1;
+  --fondo-primario:#111111;
+  --fondo-secundario:#101010;
+  --fondo-primario-transparente:#111010;
+  --color-primario:#212121;
+  --color-primario-apagado:#2422a3;
+  --color-secundario:#9b70f9;
+  --color-terciario:#6f6f6f;
+  /* sizes */
+  --presentacion-titulo-tamanio:4rem;
+  --presentacion-titulo-tamanio-grande:3.4rem;
+  --presentacion-descripcion-tamanio:1.2rem;
+  --titulo-tamanio:3rem;
+  --sub-titulo-tamanio:2rem;
+  --texto-peso-grueso:700;
+  --texto-peso-regular:400;
+  --texto-peso-fino:300;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  color: var(--texto-primario);
+  scroll-behavior: smooth;
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+}
+
+html{
+  background-color: var(--fondo-primario);
+}
+body{
+  min-height: 100%;
+  position: relative;
+}
+
+/*
 .inconsolata-prime {
   font-family: "Inconsolata", monospace;
   font-optical-sizing: auto;
@@ -19,4 +59,4 @@
   font-weight: 600;
   font-style: normal;
 }
-
+*/
